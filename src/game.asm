@@ -27,7 +27,7 @@ _start:
 	jmp .game_loop
 
 .cleanup:
-        call CloseWindow
+    call CloseWindow
   	mov rdi, 0
   	call _exit
  
